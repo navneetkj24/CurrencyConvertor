@@ -13,8 +13,8 @@ public class App extends Application {
         Scene scene = new Scene(root, 400, 300);
         primaryStage.setTitle("Currency Converter"); // Set the stage title
         primaryStage.setScene(scene); // Place the scene in the stage
-        Image i = new Image("i.png");
-        primaryStage.getIcons().add(i);
+        Image icon = new Image("i.png");
+        primaryStage.getIcons().add(icon);
         primaryStage.show(); // Display the stage
     }
 
